@@ -40,9 +40,9 @@ return (root);
 * @root: a pointer to the root node of the tree
 * Return: a pointer to the smallest node
 */
-bst_t *bst_min_val(bst_t *root)
+*bst_min_val(bst_t *root)
 {
-bst_t *min = root;
+*min = root;
 while (min->left)
 min = min->left;
 return (min);
